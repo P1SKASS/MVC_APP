@@ -14,9 +14,6 @@ namespace MVC_APP.Controllers
             _logger = logger;
         }
 
-        [ViewData]
-        public string Name { get; set; }
-
         public IActionResult First()
         {
             return View();
