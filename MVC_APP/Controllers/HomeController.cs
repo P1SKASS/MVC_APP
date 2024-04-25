@@ -14,7 +14,6 @@ namespace MVC_APP.Controllers
             _logger = logger;
         }
 
-        [Required]
         [ViewData]
         public string Name { get; set; }
 
